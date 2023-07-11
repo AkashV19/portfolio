@@ -69,13 +69,13 @@ button{
     flex-direction: row;
     gap: 20rem;
 }
-.Aboutme{
+/* .Aboutme{
     /* border: 1px solid saddlebrown; */
-}
 
-.imagediv{
+
+/* .imagediv{ */
     /* border: 2px solid purple; */
-}
+
 .downloadcv{
  padding: 80px;
  width: 800px;
@@ -117,6 +117,7 @@ margin-left: 500px;
     background-color: rgb(237, 232, 226);
     border-radius: 10px;
     color: blue;
+    margin: 50px;
    
 }
 .developer{
@@ -124,7 +125,7 @@ margin-left: 500px;
     display: flex;
  padding-left: 30px;
     width: 500px;
-    height: 250px;
+    height: 300px;
     margin-left: 15rem;
     position: relative;
 
@@ -135,14 +136,49 @@ margin-left: 500px;
     top: 10px;
 }
 
+.emoji1{
+    position: absolute;
+      
+}    
 
-
-
-
-
-
-
-
-.color{
+.star1{
+    position: absolute;
+    right: 18rem; 
+}
+.star2{
+    position: relative;
+    right: 13rem;
+}
+.star3{
+    position: relative;
+    right: 28rem;
+    bottom: 7rem;
     
 }
+
+.heart{
+    position: relative;
+    right:14rem;
+    bottom: 3rem;
+}
+/* .align-rightmargin-left{
+    color: rgb(251,160,38);
+} */
+.boxemoji{
+    position: absolute;
+    right: 30rem;
+    bottom: 3rem;
+
+}
+.socialmedia{
+   
+    display: flex;
+  bottom: 2rem;    
+}
+.glassemoji{
+position: relative;
+left: 30px;
+ 
+}
+
+
