@@ -57,11 +57,16 @@ h3{
 
 .name{
     font-size: 3em;
-    line-height: 10px;
+    line-height: 5rem;
 }
 .name1{
     font-size: 3em;
-    line-height: 100px;
+    line-height: 3rem;
+
+}
+.detail{
+  font-size: 10rem;
+ 
 }
 button{
     /* color: rgb(251,158,41); */
@@ -92,6 +97,9 @@ button{
 
 
 
+    .box1.color1{
+      margin-top: 10px;
+    }
 .downloadcv{
  padding: 80px;
  width: 800px;
@@ -146,13 +154,16 @@ margin-left: 500px;
 }
 
 .box2{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     /* border: 2px solid aqua; */
     box-shadow: 0px 1px 2px 0px rgb(250, 249, 250),
     1px 2px 4px 0px rgb(248, 247, 248),
     2px 4px 8px 0px rgb(250, 248, 250),
     2px 4px 16px 0px rgb(248, 247, 248);
+}
+.box2.color1{
+  align-content: ;
 }
 
 .box3{
@@ -167,7 +178,7 @@ margin-left: 500px;
 .developer{
     /* border: 2px solid yellow; */
     display: flex;
- padding-left: 30px;
+    padding-left: 30px;
     width: 500px;
     height: 300px;
     margin-left: 15rem;
@@ -211,17 +222,19 @@ margin-left: 500px;
 /* .align-rightmargin-left{
     color: rgb(251,160,38);
 } */
+
 .boxemoji{
     position: absolute;
     right: 30rem;
-    top: 45rem;
+    top: 35 rem;
 
 }
 .socialmedia{
-    width: 300px;
-    padding: 100px;
+    width: 300px;  
+    margin-left: 7rem;
+    
     display: flex;
-    bottom: 2rem;    
+    top: rem;    
 }
 .glassemoji{
 position: relative;
@@ -230,13 +243,7 @@ left: 30px;
 }
 
 
-/* body {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    padding-bottom: 100px;
-  } */
-  
+
   #contact {
     width: 100%;
     height: 100%;
